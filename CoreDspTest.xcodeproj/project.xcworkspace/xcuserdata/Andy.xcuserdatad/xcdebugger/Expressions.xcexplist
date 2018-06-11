@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "SineGen::process():Sine.hpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "op.buffers[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SineGen::SineGen(float, float, unsigned int):Sine.hpp">
+      </ContextState>
+      <ContextState
+         contextName = "Pin::createBuffers():GenericDsp.hpp">
+      </ContextState>
+      <ContextState
+         contextName = "DspBase::connect(Pin, unsigned int):GenericDsp.hpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "this-&gt;inputPins[1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DspBase::DspBase(int, int):GenericDsp.hpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "inputPins[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Pin::~Pin():GenericDsp.hpp">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
