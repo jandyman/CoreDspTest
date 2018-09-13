@@ -7,20 +7,11 @@
 //
 
 #include "GenericDsp.hpp"
+#include "Sources.hpp"
 
-void connect(DspInterface& from, uint fromPinIdx, DspInterface& to, uint toPinIdx) {
+ namespace DspBlocks {
+//   int Connection::IdCounter = 0;
+   int GraphBase::BufferSpec::IdCounter = 0;
+ }
 
-  if (fromPinIdx >= from.getNOutputPins()) {
-    throw new DspError("connect: non existent from pin");
-  }
-  if (toPinIdx >= to.getNInputPins()) {
-    throw new DspError("connect: non existent to pin");
-  }
 
-  to.connect(from.getOutputPin(fromPinIdx), toPinIdx);
-
-}
-
-void connect(DspInterface& from, DspInterface& to) {
-  connect(from, 0, to, 0);
-}
